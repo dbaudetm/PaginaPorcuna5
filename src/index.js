@@ -9,7 +9,7 @@ const image = document.querySelector("#image");
 
 function weatherUpdate() {
     const xhr = new XMLHttpRequest();
-    xhr.open("GET", `http://api.openweathermap.org/data/2.5/weather?q=${"Porcuna"}&appid=ded8fb24404261afff13e88870c2cf84&lang=sp`);
+    xhr.open("GET", `https://api.openweathermap.org/data/2.5/weather?q=${"Porcuna"}&appid=ded8fb24404261afff13e88870c2cf84&lang=sp`);
     //xhr.open("GET", `https://api.openweathermap.org/data/2.5/weather?q=${"Porcuna"}&lang=es&appid=25040fd4d13ee481256615303a864d13`);
 
     //api.openweathermap.org/data/2.5/weather?q=${"Porcuna"}&lang=es&appid=25040fd4d13ee481256615303a864d13
